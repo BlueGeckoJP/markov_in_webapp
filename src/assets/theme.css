@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+:root {
+  --f-color: #222831;
+  --s-color: #393e46;
+  --t-color: #eeeeee;
+}
