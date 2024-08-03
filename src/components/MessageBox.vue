@@ -11,14 +11,14 @@ defineProps(["message"]);
 <style>
 #messagebox {
   display: inline-flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  padding: 5px;
+  padding: 15px;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: var(--s-color);
-  border-radius: 15px;
-  margin: 10px;
+  border-top: 1px solid var(--s-color);
+  border-bottom: 1px solid var(--s-color);
+  width: 90%;
 }
 
 #messagebox p {
